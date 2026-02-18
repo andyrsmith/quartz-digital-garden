@@ -1,8 +1,7 @@
 ---
-title: command-line-file-navigation
+title: Command Line Navigation
 date: 02/17/2026
 tags:
-  - inbox
   - command-line
   - linux
 links:

@@ -1,5 +1,5 @@
 ---
-title: Linux-directories
+title: Linux Directories
 date: 02/02/2026
 tags:
   - linux
