@@ -1,5 +1,5 @@
 ---
-title: command-line-file
+title: Working with Files in Command Line
 date: 02/18/2026
 tags:
   - command-line
@@ -11,7 +11,7 @@ id: "202602172039"
 
 The following commands are used to create, move, copy, and delete files and folders.
 
-# touch
+## touch
 
 Touch is a command that will create a new file or update modified and access time of file depending on whether it exist or not.
 
@@ -52,7 +52,7 @@ You are able to create a new folder and a folder within that folder in one comma
 ~/ > mkdir -p newDir/newChildDir
 ```
 
-# rmdir
+## rmdir
 
 To remove a directory the rmdir command can be used but only if the directory is empty.
 
@@ -67,7 +67,7 @@ To remove both the child and parent directory in one command use the -p flag
 ```
 
 
-## Other flags
+### Other flags
 
 - a: only modify the access time
 - m: only modify the modified time
@@ -120,7 +120,7 @@ To specify what the backup file is appended with use -S option
 
 The backup file will be file1.txt.back
 
-## Other flags
+### Other flags
 
 - n: prevents overwriting
 - i: ask if you want to overwrite
@@ -148,13 +148,13 @@ Copy any file in the current directory with the .txt file extension to a new dir
 ~/ > cp *.txt newDir
 ```
 
-## Other Flags
+### Other Flags
 
 - -r: move folders
 - -b or --backup= backup existing files if exist in destination
 - -i: prompt before overwriting
 
-# rm
+## rm
 
 The remove command is rm.  This will remove one or more files depending on how many files you put as an option.
 
@@ -183,7 +183,7 @@ If the directory contains files than the rmdir will not be able to delete the di
 ~/ > rm -r newDir/
 ```
 
-## Flags
+### Flags
 
 - -i: interactive.  Ask permission before deleting
 - -f: force.  Delete file even it write protected
