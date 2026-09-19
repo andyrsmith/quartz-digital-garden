@@ -2,7 +2,7 @@
 title: "Angular Generate Command"
 date: "08/18/2026"
 tags:
-  - inbox
+  - angular
 links:
 id: "202608182026"
 ---

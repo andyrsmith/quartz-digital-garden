@@ -1,5 +1,5 @@
 ---
-title: "Antomy of a Angular Component"
+title: "Anatomy of a Angular Component"
 date: "08/19/2026"
 tags:
   - angular
