@@ -9,6 +9,25 @@ Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility 
 
 [Join the Discord Community](https://discord.gg/cRFFHYye7t)
 
+## Build Instructions
+
+Initialize Site
+
+```
+npx quartz create
+```
+
+Install plugins
+
+```
+npx quartz plugin install --from-config
+```
+
+Start server locally
+
+```
+npx quartz build --serve
+```
 ## Sponsors
 
 <p align="center">
